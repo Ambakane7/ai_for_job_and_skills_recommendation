@@ -44,9 +44,9 @@ import pafy #for uploading youtube videos
 import plotly.express as px #to create visualisations at the admin session
 import nltk
 nltk.data.path.append('./nltk_data')
-#nltk.download('stopwords')
+nltk.download('stopwords')
 #import nltk
-#nltk.download('punkt')
+nltk.download('punkt')
 import os
 
 # Définir la variable d'environnement PAFY_BACKEND sur "internal"
